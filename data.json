@@ -1,0 +1,892 @@
+[
+  {
+    "nome_popular": "Leão",
+    "nome_cientifico": "Panthera leo",
+    "reino": "Animalia",
+    "descricao": "Grande mamífero carnívoro da família dos felídeos, conhecido por sua juba. Vive em grupos sociais chamados de bandos.",
+    "habitat": "Savanas e pastagens da África.",
+    "tags": ["mamífero", "carnívoro", "felídeo", "savana"],
+    "nivel_extincao": "Vulnerável",
+    "link": "https://pt.wikipedia.org/wiki/Le%C3%A3o"
+  },
+  {
+    "nome_popular": "Tigre",
+    "nome_cientifico": "Panthera tigris",
+    "reino": "Animalia",
+    "descricao": "O maior felino do mundo, conhecido por suas listras verticais escuras em pelagem avermelhada. É um predador solitário.",
+    "habitat": "Florestas e pântanos da Ásia.",
+    "tags": ["mamífero", "carnívoro", "felídeo", "ameaçado"],
+    "nivel_extincao": "Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Tigre"
+  },
+  {
+    "nome_popular": "Elefante Africano",
+    "nome_cientifico": "Loxodonta africana",
+    "reino": "Animalia",
+    "descricao": "O maior animal terrestre, conhecido por suas grandes orelhas e presas de marfim. Possui uma estrutura social complexa.",
+    "habitat": "Savanas, florestas e desertos da África.",
+    "tags": ["mamífero", "herbívoro", "manada", "inteligente"],
+    "nivel_extincao": "Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Elefante-africano"
+  },
+  {
+    "nome_popular": "Girafa",
+    "nome_cientifico": "Giraffa camelopardalis",
+    "reino": "Animalia",
+    "descricao": "O mamífero mais alto do mundo, caracterizado por seu pescoço extremamente longo e padrão de pelagem único.",
+    "habitat": "Savanas e áreas arborizadas da África.",
+    "tags": ["mamífero", "herbívoro", "pescoço longo", "ruminante"],
+    "nivel_extincao": "Vulnerável",
+    "link": "https://pt.wikipedia.org/wiki/Girafa"
+  },
+  {
+    "nome_popular": "Pinguim-Imperador",
+    "nome_cientifico": "Aptenodytes forsteri",
+    "reino": "Animalia",
+    "descricao": "A maior de todas as espécies de pinguins, conhecida por seus longos ciclos de reprodução no gelo da Antártida durante o inverno.",
+    "habitat": "Antártida.",
+    "tags": ["ave", "antártida", "monogâmico", "não voa"],
+    "nivel_extincao": "Quase Ameaçada",
+    "link": "https://pt.wikipedia.org/wiki/Pinguim-imperador"
+  },
+  {
+    "nome_popular": "Tubarão-Branco",
+    "nome_cientifico": "Carcharodon carcharias",
+    "reino": "Animalia",
+    "descricao": "Um dos maiores peixes predadores, famoso por sua eficiência na caça. Está no topo da cadeia alimentar marinha.",
+    "habitat": "Águas costeiras e oceânicas em mares temperados.",
+    "tags": ["peixe", "predador", "oceano", "cartilaginoso"],
+    "nivel_extincao": "Vulnerável",
+    "link": "https://pt.wikipedia.org/wiki/Tubar%C3%A3o-branco"
+  },
+  {
+    "nome_popular": "Baleia-Azul",
+    "nome_cientifico": "Balaenoptera musculus",
+    "reino": "Animalia",
+    "descricao": "O maior animal que já existiu na Terra. Alimenta-se quase exclusivamente de pequenos crustáceos chamados krill.",
+    "habitat": "Todos os oceanos do mundo.",
+    "tags": ["mamífero", "marinho", "filtrador", "gigante"],
+    "nivel_extincao": "Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Baleia-azul"
+  },
+  {
+    "nome_popular": "Orangotango",
+    "nome_cientifico": "Pongo pygmaeus",
+    "reino": "Animalia",
+    "descricao": "Grande primata asiático conhecido por sua pelagem avermelhada e longos braços. Passa a maior parte da vida nas árvores.",
+    "habitat": "Florestas tropicais de Bornéu e Sumatra.",
+    "tags": ["primata", "arborícola", "frugívoro", "inteligente"],
+    "nivel_extincao": "Criticamente Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Orangotango"
+  },
+  {
+    "nome_popular": "Urso-Polar",
+    "nome_cientifico": "Ursus maritimus",
+    "reino": "Animalia",
+    "descricao": "O maior carnívoro terrestre, adaptado para viver em ambientes de gelo marinho. Sua pelagem branca oferece camuflagem.",
+    "habitat": "Círculo Polar Ártico.",
+    "tags": ["mamífero", "carnívoro", "ártico", "gelo"],
+    "nivel_extincao": "Vulnerável",
+    "link": "https://pt.wikipedia.org/wiki/Urso-polar"
+  },
+  {
+    "nome_popular": "Canguru-Vermelho",
+    "nome_cientifico": "Osphranter rufus",
+    "reino": "Animalia",
+    "descricao": "O maior marsupial do mundo, nativo da Austrália. Conhecido por seus poderosos saltos.",
+    "habitat": "Desertos e pastagens abertas da Austrália.",
+    "tags": ["marsupial", "herbívoro", "austrália", "salto"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Canguru-vermelho"
+  },
+  {
+    "nome_popular": "Lobo-Cinzento",
+    "nome_cientifico": "Canis lupus",
+    "reino": "Animalia",
+    "descricao": "Canídeo selvagem que vive e caça em alcateias. É o ancestral dos cães domésticos.",
+    "habitat": "Florestas e áreas remotas do Hemisfério Norte.",
+    "tags": ["mamífero", "carnívoro", "alcateia", "canídeo"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Lobo"
+  },
+  {
+    "nome_popular": "Águia-Careca",
+    "nome_cientifico": "Haliaeetus leucocephalus",
+    "reino": "Animalia",
+    "descricao": "Ave de rapina, símbolo nacional dos Estados Unidos. Conhecida por sua cabeça branca e grande envergadura.",
+    "habitat": "Próximo a rios, lagos e costas da América do Norte.",
+    "tags": ["ave", "rapina", "predador", "símbolo"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/%C3%81guia-de-cabe%C3%A7a-branca"
+  },
+  {
+    "nome_popular": "Jacaré-Americano",
+    "nome_cientifico": "Alligator mississippiensis",
+    "reino": "Animalia",
+    "descricao": "Grande réptil semiaquático com um focinho largo e arredondado. Predador de topo em seu ecossistema.",
+    "habitat": "Pântanos e rios do sudeste dos Estados Unidos.",
+    "tags": ["réptil", "carnívoro", "pântano", "semiaquático"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Alig%C3%A1tor-americano"
+  },
+  {
+    "nome_popular": "Tartaruga-Verde",
+    "nome_cientifico": "Chelonia mydas",
+    "reino": "Animalia",
+    "descricao": "Grande tartaruga marinha que migra longas distâncias entre áreas de alimentação e praias de desova.",
+    "habitat": "Oceanos tropicais e subtropicais.",
+    "tags": ["réptil", "marinho", "herbívoro", "migração"],
+    "nivel_extincao": "Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Tartaruga-verde"
+  },
+  {
+    "nome_popular": "Polvo-Comum",
+    "nome_cientifico": "Octopus vulgaris",
+    "reino": "Animalia",
+    "descricao": "Molusco marinho altamente inteligente, conhecido por sua capacidade de mudar de cor e textura para se camuflar.",
+    "habitat": "Recifes de coral e fundos rochosos em todo o mundo.",
+    "tags": ["molusco", "invertebrado", "inteligente", "camuflagem"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Polvo-comum"
+  },
+  {
+    "nome_popular": "Borboleta-Monarca",
+    "nome_cientifico": "Danaus plexippus",
+    "reino": "Animalia",
+    "descricao": "Inseto famoso por sua incrível migração anual de milhares de quilômetros entre o México e o Canadá.",
+    "habitat": "América do Norte e do Sul.",
+    "tags": ["inseto", "migração", "polinizador", "metamorfose"],
+    "nivel_extincao": "Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Borboleta-monarca"
+  },
+  {
+    "nome_popular": "Coala",
+    "nome_cientifico": "Phascolarctos cinereus",
+    "reino": "Animalia",
+    "descricao": "Marsupial arborícola nativo da Austrália que se alimenta quase exclusivamente de folhas de eucalipto.",
+    "habitat": "Florestas de eucalipto na Austrália.",
+    "tags": ["marsupial", "herbívoro", "austrália", "arborícola"],
+    "nivel_extincao": "Vulnerável",
+    "link": "https://pt.wikipedia.org/wiki/Coala"
+  },
+  {
+    "nome_popular": "Zebra-da-Planície",
+    "nome_cientifico": "Equus quagga",
+    "reino": "Animalia",
+    "descricao": "Equídeo africano conhecido por suas listras pretas e brancas distintas, que servem como camuflagem e proteção social.",
+    "habitat": "Savanas e pastagens da África Oriental e Austral.",
+    "tags": ["mamífero", "herbívoro", "listras", "manada"],
+    "nivel_extincao": "Quase Ameaçada",
+    "link": "https://pt.wikipedia.org/wiki/Zebra-da-plan%C3%ADcie"
+  },
+  {
+    "nome_popular": "Gorila-das-Montanhas",
+    "nome_cientifico": "Gorilla beringei beringei",
+    "reino": "Animalia",
+    "descricao": "Uma das duas subespécies de gorilas-do-oriente. É um grande primata que vive em grupos familiares liderados por um macho 'silverback'.",
+    "habitat": "Florestas montanhosas na África Central.",
+    "tags": ["primata", "herbívoro", "ameaçado", "silverback"],
+    "nivel_extincao": "Criticamente Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Gorila-das-montanhas"
+  },
+  {
+    "nome_popular": "Raposa-Vermelha",
+    "nome_cientifico": "Vulpes vulpes",
+    "reino": "Animalia",
+    "descricao": "O maior membro do gênero Vulpes, conhecido por sua astúcia e cauda espessa. É um caçador onívoro e oportunista.",
+    "habitat": "Amplamente distribuída no Hemisfério Norte, em florestas, pastagens e áreas urbanas.",
+    "tags": ["mamífero", "onívoro", "canídeo", "astúcia"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Raposa-vermelha"
+  },
+  {
+    "nome_popular": "Panda-Gigante",
+    "nome_cientifico": "Ailuropoda melanoleuca",
+    "reino": "Animalia",
+    "descricao": "Urso nativo da China, conhecido por sua dieta quase exclusiva de bambu e sua aparência distinta em preto e branco.",
+    "habitat": "Florestas temperadas de bambu nas montanhas da China.",
+    "tags": ["mamífero", "herbívoro", "urso", "ameaçado"],
+    "nivel_extincao": "Vulnerável",
+    "link": "https://pt.wikipedia.org/wiki/Panda-gigante"
+  },
+  {
+    "nome_popular": "Lince-Ibérico",
+    "nome_cientifico": "Lynx pardinus",
+    "reino": "Animalia",
+    "descricao": "Felino endêmico da Península Ibérica, é uma das espécies de felinos mais ameaçadas do mundo. Especialista em caçar coelhos.",
+    "habitat": "Matagais e florestas mediterrânicas.",
+    "tags": ["mamífero", "carnívoro", "felídeo", "endêmico"],
+    "nivel_extincao": "Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Lince-ib%C3%A9rico"
+  },
+  {
+    "nome_popular": "Diabo-da-Tasmânia",
+    "nome_cientifico": "Sarcophilus harrisii",
+    "reino": "Animalia",
+    "descricao": "O maior marsupial carnívoro do mundo, conhecido por sua ferocidade e gritos agudos. Endêmico da ilha da Tasmânia.",
+    "habitat": "Florestas e áreas costeiras da Tasmânia, Austrália.",
+    "tags": ["marsupial", "carnívoro", "austrália", "endêmico"],
+    "nivel_extincao": "Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Diabo-da-tasm%C3%A2nia"
+  },
+  {
+    "nome_popular": "Ornitorrinco",
+    "nome_cientifico": "Ornithorhynchus anatinus",
+    "reino": "Animalia",
+    "descricao": "Mamífero semiaquático que põe ovos (monotremado), com bico de pato, cauda de castor e pés de lontra. Os machos são venenosos.",
+    "habitat": "Rios e riachos do leste da Austrália.",
+    "tags": ["mamífero", "monotremado", "venenoso", "semiaquático"],
+    "nivel_extincao": "Quase Ameaçada",
+    "link": "https://pt.wikipedia.org/wiki/Ornitorrinco"
+  },
+  {
+    "nome_popular": "Peixe-Boi-da-Amazônia",
+    "nome_cientifico": "Trichechus inunguis",
+    "reino": "Animalia",
+    "descricao": "Mamífero aquático herbívoro que vive exclusivamente em rios e lagos da Bacia Amazônica. É o menor dos sirênios.",
+    "habitat": "Rios de água doce da Bacia Amazônica.",
+    "tags": ["mamífero", "aquático", "herbívoro", "amazônia"],
+    "nivel_extincao": "Vulnerável",
+    "link": "https://pt.wikipedia.org/wiki/Peixe-boi-da-amaz%C3%B4nia"
+  },
+  {
+    "nome_popular": "Arara-Azul",
+    "nome_cientifico": "Anodorhynchus hyacinthinus",
+    "reino": "Animalia",
+    "descricao": "A maior arara do mundo, com uma plumagem azul-cobalto vibrante. Encontrada no Brasil, Bolívia e Paraguai.",
+    "habitat": "Florestas de galeria e savanas do Pantanal e Cerrado.",
+    "tags": ["ave", "psitacídeo", "ameaçada", "pantanal"],
+    "nivel_extincao": "Vulnerável",
+    "link": "https://pt.wikipedia.org/wiki/Arara-azul"
+  },
+  {
+    "nome_popular": "Mico-Leão-Dourado",
+    "nome_cientifico": "Leontopithecus rosalia",
+    "reino": "Animalia",
+    "descricao": "Pequeno primata endêmico da Mata Atlântica no estado do Rio de Janeiro, Brasil. Símbolo da luta pela conservação.",
+    "habitat": "Florestas tropicais de baixada da Mata Atlântica.",
+    "tags": ["primata", "endêmico", "mata atlântica", "ameaçado"],
+    "nivel_extincao": "Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Mico-le%C3%A3o-dourado"
+  },
+  {
+    "nome_popular": "Lontra-Marinha",
+    "nome_cientifico": "Enhydra lutris",
+    "reino": "Animalia",
+    "descricao": "Mamífero marinho conhecido por usar pedras para abrir conchas e por flutuar de costas. Possui a pelagem mais densa do reino animal.",
+    "habitat": "Costas do Oceano Pacífico Norte.",
+    "tags": ["mamífero", "marinho", "carnívoro", "ferramentas"],
+    "nivel_extincao": "Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Lontra-marinha"
+  },
+  {
+    "nome_popular": "Axolote",
+    "nome_cientifico": "Ambystoma mexicanum",
+    "reino": "Animalia",
+    "descricao": "Espécie de salamandra que não se submete à metamorfose, mantendo características larvares (neotenia) por toda a vida. Famosa por sua capacidade de regeneração.",
+    "habitat": "Complexo de lagos de Xochimilco, perto da Cidade do México.",
+    "tags": ["anfíbio", "neotenia", "regeneração", "endêmico"],
+    "nivel_extincao": "Criticamente Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Axolote"
+  },
+  {
+    "nome_popular": "Dragão-de-Komodo",
+    "nome_cientifico": "Varanus komodoensis",
+    "reino": "Animalia",
+    "descricao": "A maior espécie de lagarto do mundo, encontrada em ilhas da Indonésia. Possui uma mordida venenosa.",
+    "habitat": "Florestas tropicais e savanas das ilhas de Komodo, Rinca, Flores e Gili Motang.",
+    "tags": ["réptil", "lagarto", "venenoso", "predador"],
+    "nivel_extincao": "Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Drag%C3%A3o-de-komodo"
+  },
+  {
+    "nome_popular": "Rinoceronte-Branco",
+    "nome_cientifico": "Ceratotherium simum",
+    "reino": "Animalia",
+    "descricao": "Uma das cinco espécies de rinocerontes. Apesar do nome, sua cor varia de acastanhado a cinza. É o maior dos rinocerontes.",
+    "habitat": "Savanas e pastagens da África.",
+    "tags": ["mamífero", "herbívoro", "megafauna", "ameaçado"],
+    "nivel_extincao": "Quase Ameaçada",
+    "link": "https://pt.wikipedia.org/wiki/Rinoceronte-branco"
+  },
+  {
+    "nome_popular": "Leopardo-das-Neves",
+    "nome_cientifico": "Panthera uncia",
+    "reino": "Animalia",
+    "descricao": "Grande felino adaptado a ambientes frios e montanhosos. Conhecido por sua pelagem espessa e cauda longa que usa para equilíbrio e aquecimento.",
+    "habitat": "Regiões montanhosas da Ásia Central e do Sul.",
+    "tags": ["mamífero", "carnívoro", "felídeo", "montanha"],
+    "nivel_extincao": "Vulnerável",
+    "link": "https://pt.wikipedia.org/wiki/Leopardo-das-neves"
+  },
+  {
+    "nome_popular": "Kakapo",
+    "nome_cientifico": "Strigops habroptilus",
+    "reino": "Animalia",
+    "descricao": "Papagaio noturno e que não voa, endêmico da Nova Zelândia. É o papagaio mais pesado do mundo e está criticamente ameaçado.",
+    "habitat": "Florestas da Nova Zelândia.",
+    "tags": ["ave", "papagaio", "noturno", "não voa"],
+    "nivel_extincao": "Criticamente Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Kakapo"
+  },
+  {
+    "nome_popular": "Fossa",
+    "nome_cientifico": "Cryptoprocta ferox",
+    "reino": "Animalia",
+    "descricao": "O maior mamífero carnívoro de Madagascar, com aparência semelhante a um pequeno puma. É um predador ágil, tanto no chão quanto nas árvores.",
+    "habitat": "Florestas de Madagascar.",
+    "tags": ["mamífero", "carnívoro", "endêmico", "madagascar"],
+    "nivel_extincao": "Vulnerável",
+    "link": "https://pt.wikipedia.org/wiki/Fossa_(animal)"
+  },
+  {
+    "nome_popular": "Okapi",
+    "nome_cientifico": "Okapia johnstoni",
+    "reino": "Animalia",
+    "descricao": "Parente mais próximo da girafa, conhecido por suas pernas listradas que lembram uma zebra. É endêmico das florestas da República Democrática do Congo.",
+    "habitat": "Florestas tropicais da República Democrática do Congo.",
+    "tags": ["mamífero", "herbívoro", "endêmico", "girafídeo"],
+    "nivel_extincao": "Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Ocapi"
+  },
+  {
+    "nome_popular": "Narval",
+    "nome_cientifico": "Monodon monoceros",
+    "reino": "Animalia",
+    "descricao": "Baleia dentada de tamanho médio, conhecida pelo seu longo 'chifre', que na verdade é um dente canino que pode crescer até 3 metros nos machos.",
+    "habitat": "Águas árticas ao redor da Groenlândia, Canadá e Rússia.",
+    "tags": ["mamífero", "marinho", "baleia", "ártico"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Narval"
+  },
+  {
+    "nome_popular": "Pangolim",
+    "nome_cientifico": "Pholidota",
+    "reino": "Animalia",
+    "descricao": "Mamífero coberto por escamas de queratina. Quando ameaçado, enrola-se numa bola. Alimenta-se de formigas e cupins.",
+    "habitat": "Florestas e savanas da Ásia e África.",
+    "tags": ["mamífero", "insetívoro", "escamas", "ameaçado"],
+    "nivel_extincao": "Variável (Vulnerável a Criticamente em Perigo)",
+    "link": "https://pt.wikipedia.org/wiki/Pangolim"
+  },
+  {
+    "nome_popular": "Bicho-Pau",
+    "nome_cientifico": "Phasmatodea",
+    "reino": "Animalia",
+    "descricao": "Ordem de insetos conhecida por sua camuflagem excepcional, imitando galhos ou folhas. São herbívoros e geralmente noturnos.",
+    "habitat": "Florestas tropicais e subtropicais em todo o mundo.",
+    "tags": ["inseto", "herbívoro", "camuflagem", "mimetismo"],
+    "nivel_extincao": "Não Avaliado",
+    "link": "https://pt.wikipedia.org/wiki/Bicho-pau"
+  },
+  {
+    "nome_popular": "Gazela-Girafa",
+    "nome_cientifico": "Litocranius walleri",
+    "reino": "Animalia",
+    "descricao": "Antílope de pescoço longo encontrado na África Oriental. Seu nome em somali significa 'pescoço de girafa'. Fica em pé nas patas traseiras para alcançar folhas altas.",
+    "habitat": "Zonas áridas e de matagais da África Oriental.",
+    "tags": ["mamífero", "herbívoro", "antílope", "pescoço longo"],
+    "nivel_extincao": "Quase Ameaçada",
+    "link": "https://pt.wikipedia.org/wiki/Gazela-girafa"
+  },
+  {
+    "nome_popular": "Peixe-Palhaço",
+    "nome_cientifico": "Amphiprioninae",
+    "reino": "Animalia",
+    "descricao": "Subfamília de peixes conhecida por sua relação de simbiose com anêmonas-do-mar. Famoso pelo filme 'Procurando Nemo'.",
+    "habitat": "Recifes de coral nos oceanos Índico e Pacífico.",
+    "tags": ["peixe", "recife de coral", "simbiose", "anêmona"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Peixe-palha%C3%A7o"
+  },
+  {
+    "nome_popular": "Girassol",
+    "nome_cientifico": "Helianthus annuus",
+    "reino": "Plantae",
+    "descricao": "Planta anual famosa por suas grandes flores amarelas que seguem o movimento do sol (heliotropismo).",
+    "habitat": "Originário da América do Norte, cultivado mundialmente.",
+    "tags": ["planta", "anual", "flor", "heliotropismo"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Girassol"
+  },
+  {
+    "nome_popular": "Rosa",
+    "nome_cientifico": "Rosa spp.",
+    "reino": "Plantae",
+    "descricao": "Arbusto ou trepadeira, amplamente cultivado por suas flores perfumadas. Existem milhares de variedades.",
+    "habitat": "Nativa da Ásia, Europa, América do Norte e noroeste da África.",
+    "tags": ["arbusto", "flor", "ornamental", "perfumada"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Rosa"
+  },
+  {
+    "nome_popular": "Carvalho",
+    "nome_cientifico": "Quercus robur",
+    "reino": "Plantae",
+    "descricao": "Árvore de grande porte e longa vida, símbolo de força. Sua madeira é muito valorizada e produz bolotas como fruto.",
+    "habitat": "Florestas temperadas da Europa e Ásia Ocidental.",
+    "tags": ["árvore", "madeira", "longevidade", "floresta"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Carvalho-roble"
+  },
+  {
+    "nome_popular": "Pinheiro",
+    "nome_cientifico": "Pinus sylvestris",
+    "reino": "Plantae",
+    "descricao": "Árvore conífera perene, facilmente reconhecível por suas folhas em forma de agulha e cones (pinhas).",
+    "habitat": "Florestas boreais e temperadas da Eurásia.",
+    "tags": ["árvore", "conífera", "perene", "pinha"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Pinus_sylvestris"
+  },
+  {
+    "nome_popular": "Samambaia",
+    "nome_cientifico": "Pteridium aquilinum",
+    "reino": "Plantae",
+    "descricao": "Planta vascular sem sementes que se reproduz por esporos. Possui folhas grandes e complexas chamadas frondes.",
+    "habitat": "Sub-bosques de florestas em todo o mundo.",
+    "tags": ["planta vascular", "esporos", "frondes", "sombra"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Samambaia"
+  },
+  {
+    "nome_popular": "Orquídea Phalaenopsis",
+    "nome_cientifico": "Phalaenopsis amabilis",
+    "reino": "Plantae",
+    "descricao": "Uma das orquídeas mais populares para cultivo doméstico, conhecida por suas flores duradouras que se assemelham a mariposas.",
+    "habitat": "Florestas tropicais do Sudeste Asiático.",
+    "tags": ["flor", "epífita", "ornamental", "tropical"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Phalaenopsis"
+  },
+  {
+    "nome_popular": "Cacto Saguaro",
+    "nome_cientifico": "Carnegiea gigantea",
+    "reino": "Plantae",
+    "descricao": "Cacto de grande porte em forma de coluna com braços, ícone dos desertos norte-americanos. Pode viver mais de 150 anos.",
+    "habitat": "Deserto de Sonora, na América do Norte.",
+    "tags": ["cacto", "deserto", "suculenta", "longevidade"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Saguaro"
+  },
+  {
+    "nome_popular": "Bambu",
+    "nome_cientifico": "Bambusoideae",
+    "reino": "Plantae",
+    "descricao": "Grupo de gramíneas perenes de rápido crescimento, com caules ocos e lenhosos. Possui milhares de usos.",
+    "habitat": "Regiões tropicais, subtropicais e temperadas da Ásia, África e Américas.",
+    "tags": ["gramínea", "crescimento rápido", "sustentável", "versátil"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Bambu"
+  },
+  {
+    "nome_popular": "Trigo",
+    "nome_cientifico": "Triticum aestivum",
+    "reino": "Plantae",
+    "descricao": "Cereal cultivado em todo o mundo, cuja semente é moída para fazer farinha para pães, massas e outros alimentos.",
+    "habitat": "Cultivado globalmente, originário do Oriente Médio.",
+    "tags": ["cereal", "gramínea", "agricultura", "alimento"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Trigo"
+  },
+  {
+    "nome_popular": "Milho",
+    "nome_cientifico": "Zea mays",
+    "reino": "Plantae",
+    "descricao": "Planta de grão alto domesticada no sul do México. É um dos alimentos mais cultivados e consumidos no mundo.",
+    "habitat": "Cultivado globalmente, originário das Américas.",
+    "tags": ["cereal", "gramínea", "agricultura", "espiga"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Milho"
+  },
+  {
+    "nome_popular": "Lavanda",
+    "nome_cientifico": "Lavandula angustifolia",
+    "reino": "Plantae",
+    "descricao": "Arbusto conhecido por suas flores roxas perfumadas, amplamente utilizado em perfumaria, cosméticos e aromaterapia.",
+    "habitat": "Região do Mediterrâneo.",
+    "tags": ["arbusto", "flor", "aromática", "medicinal"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Lavandula"
+  },
+  {
+    "nome_popular": "Baobá",
+    "nome_cientifico": "Adansonia digitata",
+    "reino": "Plantae",
+    "descricao": "Árvore africana icônica, conhecida por seu tronco extremamente grosso que armazena água e sua longevidade.",
+    "habitat": "Savanas secas da África continental.",
+    "tags": ["árvore", "suculenta", "longevidade", "africana"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Baob%C3%A1"
+  },
+  {
+    "nome_popular": "Vitória-Régia",
+    "nome_cientifico": "Victoria amazonica",
+    "reino": "Plantae",
+    "descricao": "Planta aquática com folhas flutuantes gigantes que podem suportar peso. Suas flores desabrocham à noite.",
+    "habitat": "Bacia do Rio Amazonas.",
+    "tags": ["planta aquática", "amazônia", "folha gigante", "noturna"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Victoria_amazonica"
+  },
+  {
+    "nome_popular": "Sequóia-Gigante",
+    "nome_cientifico": "Sequoiadendron giganteum",
+    "reino": "Plantae",
+    "descricao": "As árvores mais volumosas do mundo, conhecidas por sua casca espessa e avermelhada e sua incrível altura e longevidade.",
+    "habitat": "Bosques na encosta oeste da Sierra Nevada, Califórnia.",
+    "tags": ["árvore", "conífera", "gigante", "longevidade"],
+    "nivel_extincao": "Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Sequoiadendron_giganteum"
+  },
+  {
+    "nome_popular": "Oliveira",
+    "nome_cientifico": "Olea europaea",
+    "reino": "Plantae",
+    "descricao": "Árvore de pequeno porte, tradicional da região do Mediterrâneo. Seus frutos, as azeitonas, são usados para produzir azeite.",
+    "habitat": "Bacia do Mediterrâneo.",
+    "tags": ["árvore", "frutífera", "mediterrânea", "azeite"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Oliveira"
+  },
+  {
+    "nome_popular": "Glicínia",
+    "nome_cientifico": "Wisteria sinensis",
+    "reino": "Plantae",
+    "descricao": "Trepadeira ornamental conhecida por seus cachos de flores pendentes e perfumadas, geralmente em tons de roxo, azul ou branco.",
+    "habitat": "Nativa da China, cultivada em jardins de todo o mundo.",
+    "tags": ["trepadeira", "flor", "ornamental", "perfumada"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Wisteria_sinensis"
+  },
+  {
+    "nome_popular": "Dente-de-Leão",
+    "nome_cientifico": "Taraxacum officinale",
+    "reino": "Plantae",
+    "descricao": "Planta herbácea comum, muitas vezes considerada uma erva daninha. Suas sementes são dispersas pelo vento em uma esfera característica.",
+    "habitat": "Regiões temperadas do Hemisfério Norte.",
+    "tags": ["erva", "flor amarela", "medicinal", "dispersão pelo vento"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Taraxacum_officinale"
+  },
+  {
+    "nome_popular": "Arroz",
+    "nome_cientifico": "Oryza sativa",
+    "reino": "Plantae",
+    "descricao": "Cereal que é o alimento básico para uma grande parte da população mundial, especialmente na Ásia. Cultivado em campos inundados.",
+    "habitat": "Cultivado globalmente, originário da Ásia.",
+    "tags": ["cereal", "gramínea", "alimento básico", "agricultura"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Arroz"
+  },
+  {
+    "nome_popular": "Tulipa",
+    "nome_cientifico": "Tulipa gesneriana",
+    "reino": "Plantae",
+    "descricao": "Planta bulbosa famosa por suas flores em forma de copo e cores vibrantes. Símbolo da Holanda.",
+    "habitat": "Originária da Ásia Central, amplamente cultivada na Europa.",
+    "tags": ["bulbo", "flor", "ornamental", "primavera"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Tulipa"
+  },
+  {
+    "nome_popular": "Papoula-da-Califórnia",
+    "nome_cientifico": "Eschscholzia californica",
+    "reino": "Plantae",
+    "descricao": "Planta herbácea com flores de cor laranja vibrante. É a flor do estado da Califórnia, EUA.",
+    "habitat": "Nativa dos Estados Unidos e México.",
+    "tags": ["flor", "anual", "laranja", "nativa"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Eschscholzia_californica"
+  },
+  {
+    "nome_popular": "Dioneia",
+    "nome_cientifico": "Dionaea muscipula",
+    "reino": "Plantae",
+    "descricao": "Planta carnívora que captura suas presas (principalmente insetos) com uma armadilha formada por suas folhas.",
+    "habitat": "Pântanos e brejos subtropicais na Carolina do Norte e do Sul, EUA.",
+    "tags": ["planta carnívora", "insetívora", "armadilha", "pântano"],
+    "nivel_extincao": "Vulnerável",
+    "link": "https://pt.wikipedia.org/wiki/Dioneia"
+  },
+  {
+    "nome_popular": "Ginkgo Biloba",
+    "nome_cientifico": "Ginkgo biloba",
+    "reino": "Plantae",
+    "descricao": "Uma das espécies de árvores mais antigas do mundo, considerada um 'fóssil vivo'. Suas folhas em forma de leque são distintas.",
+    "habitat": "Nativa da China, cultivada em todo o mundo.",
+    "tags": ["árvore", "fóssil vivo", "medicinal", "longevidade"],
+    "nivel_extincao": "Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Ginkgo_biloba"
+  },
+  {
+    "nome_popular": "Flor-de-Lótus",
+    "nome_cientifico": "Nelumbo nucifera",
+    "reino": "Plantae",
+    "descricao": "Planta aquática sagrada em várias culturas orientais. Suas flores, folhas e sementes emergem da água.",
+    "habitat": "Águas paradas e de fluxo lento na Ásia e Austrália.",
+    "tags": ["planta aquática", "flor", "sagrada", "rizoma"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/L%C3%B3tus"
+  },
+  {
+    "nome_popular": "Aloe Vera",
+    "nome_cientifico": "Aloe vera",
+    "reino": "Plantae",
+    "descricao": "Planta suculenta conhecida pelo gel contido em suas folhas, amplamente utilizado em produtos medicinais e cosméticos.",
+    "habitat": "Nativa da Península Arábica, cultivada em climas tropicais e subtropicais.",
+    "tags": ["suculenta", "medicinal", "cosmético", "gel"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Aloe_vera"
+  },
+  {
+    "nome_popular": "Mandrágora",
+    "nome_cientifico": "Mandragora officinarum",
+    "reino": "Plantae",
+    "descricao": "Planta com uma longa história de uso em rituais mágicos e medicina tradicional, devido à sua raiz que pode se assemelhar a uma figura humana.",
+    "habitat": "Região do Mediterrâneo e Oriente Médio.",
+    "tags": ["erva", "medicinal", "tóxica", "folclore"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Mandr%C3%A1gora"
+  },
+  {
+    "nome_popular": "Rafflesia",
+    "nome_cientifico": "Rafflesia arnoldii",
+    "reino": "Plantae",
+    "descricao": "Planta parasita que produz a maior flor individual do mundo, podendo atingir 1 metro de diâmetro. Exala um cheiro de carne em decomposição.",
+    "habitat": "Florestas tropicais de Sumatra e Bornéu.",
+    "tags": ["planta parasita", "flor gigante", "carniça", "ameaçada"],
+    "nivel_extincao": "Vulnerável",
+    "link": "https://pt.wikipedia.org/wiki/Rafflesia_arnoldii"
+  },
+  {
+    "nome_popular": "Dracena-Dragoeiro",
+    "nome_cientifico": "Dracaena draco",
+    "reino": "Plantae",
+    "descricao": "Árvore subtropical conhecida por sua seiva vermelha, chamada 'sangue de dragão', que tem usos medicinais e como corante.",
+    "habitat": "Nativa das Ilhas Canárias, Cabo Verde e Madeira.",
+    "tags": ["árvore", "subtropical", "seiva vermelha", "longevidade"],
+    "nivel_extincao": "Vulnerável",
+    "link": "https://pt.wikipedia.org/wiki/Dragoeiro"
+  },
+  {
+    "nome_popular": "Edelweiss",
+    "nome_cientifico": "Leontopodium alpinum",
+    "reino": "Plantae",
+    "descricao": "Famosa flor das montanhas, símbolo dos Alpes. Suas flores brancas são cobertas por pelos para proteção contra o frio e a radiação UV.",
+    "habitat": "Regiões rochosas e prados alpinos em altitudes elevadas.",
+    "tags": ["flor", "alpina", "montanha", "símbolo"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Leontopodium_alpinum"
+  },
+  {
+    "nome_popular": "Cerejeira",
+    "nome_cientifico": "Prunus serrulata",
+    "reino": "Plantae",
+    "descricao": "Árvore ornamental famosa por sua floração espetacular na primavera (sakura). É um ícone cultural do Japão.",
+    "habitat": "Nativa do Japão, Coreia e China, cultivada mundialmente.",
+    "tags": ["árvore", "ornamental", "flor", "sakura"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Cerejeira-do-jap%C3%A3o"
+  },
+  {
+    "nome_popular": "Açafrão",
+    "nome_cientifico": "Crocus sativus",
+    "reino": "Plantae",
+    "descricao": "Planta cujo estigma seco da flor é usado como uma especiaria cara, corante e em medicamentos. São necessárias milhares de flores para produzir uma pequena quantidade.",
+    "habitat": "Originário do Sudoeste Asiático, cultivado no Mediterrâneo.",
+    "tags": ["especiaria", "bulbo", "corante", "medicinal"],
+    "nivel_extincao": "Não Avaliado",
+    "link": "https://pt.wikipedia.org/wiki/A%C3%A7afr%C3%A3o"
+  },
+  {
+    "nome_popular": "Welwitschia",
+    "nome_cientifico": "Welwitschia mirabilis",
+    "reino": "Plantae",
+    "descricao": "Planta desértica única que consiste em apenas duas folhas que crescem continuamente ao longo de sua vida, que pode durar mais de 1.500 anos.",
+    "habitat": "Deserto do Namibe, em Angola e na Namíbia.",
+    "tags": ["planta desértica", "fóssil vivo", "longevidade", "duas folhas"],
+    "nivel_extincao": "Não Ameaçada",
+    "link": "https://pt.wikipedia.org/wiki/Welwitschia_mirabilis"
+  },
+  {
+    "nome_popular": "Planta-Ovo",
+    "nome_cientifico": "Solanum ovigerum",
+    "reino": "Plantae",
+    "descricao": "Variedade ornamental de berinjela cujos frutos se assemelham a ovos de galinha brancos ou amarelos antes de amadurecerem.",
+    "habitat": "Cultivada como planta ornamental, originária da Ásia.",
+    "tags": ["ornamental", "fruto", "berinjela", "curiosidade"],
+    "nivel_extincao": "Não Avaliado",
+    "link": "https://en.wikipedia.org/wiki/Easter_eggplant"
+  },
+  {
+    "nome_popular": "Flor-Morcego",
+    "nome_cientifico": "Tacca chantrieri",
+    "reino": "Plantae",
+    "descricao": "Planta tropical com flores exóticas de cor preta ou marrom-escura, que se assemelham a um morcego em voo, com longos 'bigodes'.",
+    "habitat": "Florestas tropicais do Sudeste Asiático.",
+    "tags": ["flor exótica", "tropical", "preta", "ornamental"],
+    "nivel_extincao": "Não Avaliado",
+    "link": "https://pt.wikipedia.org/wiki/Tacca_chantrieri"
+  },
+  {
+    "nome_popular": "Eucalipto-Arco-Íris",
+    "nome_cientifico": "Eucalyptus deglupta",
+    "reino": "Plantae",
+    "descricao": "Árvore de grande porte conhecida por sua casca multicolorida. À medida que a casca envelhece e se desprende, revela camadas internas de cores vivas.",
+    "habitat": "Florestas tropicais das Filipinas, Indonésia e Papua-Nova Guiné.",
+    "tags": ["árvore", "casca colorida", "tropical", "eucalipto"],
+    "nivel_extincao": "Vulnerável",
+    "link": "https://pt.wikipedia.org/wiki/Eucalyptus_deglupta"
+  },
+  {
+    "nome_popular": "Flor-Beijo",
+    "nome_cientifico": "Psychotria elata",
+    "reino": "Plantae",
+    "descricao": "Planta tropical cujas brácteas vermelhas brilhantes se assemelham a um par de lábios carnudos antes de a flor principal desabrochar.",
+    "habitat": "Florestas tropicais da América Central e do Sul.",
+    "tags": ["flor exótica", "tropical", "brácteas", "curiosidade"],
+    "nivel_extincao": "Quase Ameaçada",
+    "link": "https://en.wikipedia.org/wiki/Psychotria_elata"
+  },
+  {
+    "nome_popular": "Café",
+    "nome_cientifico": "Coffea arabica",
+    "reino": "Plantae",
+    "descricao": "Arbusto cujas sementes torradas e moídas são usadas para fazer a bebida café. É uma das commodities mais valiosas do mundo.",
+    "habitat": "Nativo das florestas da Etiópia, cultivado em regiões tropicais.",
+    "tags": ["arbusto", "frutífera", "bebida", "cafeína"],
+    "nivel_extincao": "Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Coffea_arabica"
+  },
+  {
+    "nome_popular": "Cacau",
+    "nome_cientifico": "Theobroma cacao",
+    "reino": "Plantae",
+    "descricao": "Árvore cujas sementes (amêndoas) são a matéria-prima para a produção de cacau em pó e chocolate.",
+    "habitat": "Nativo das bacias tropicais da Amazônia e Orinoco, cultivado na faixa equatorial.",
+    "tags": ["árvore", "frutífera", "chocolate", "amazônia"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Theobroma_cacao"
+  },
+  {
+    "nome_popular": "Baunilha",
+    "nome_cientifico": "Vanilla planifolia",
+    "reino": "Plantae",
+    "descricao": "Orquídea trepadeira cujo fruto (vagem) é curado para produzir o aromatizante baunilha, uma das especiarias mais populares.",
+    "habitat": "Nativa do México e América Central, cultivada em regiões tropicais.",
+    "tags": ["orquídea", "trepadeira", "especiaria", "aromatizante"],
+    "nivel_extincao": "Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Vanilla_planifolia"
+  },
+  {
+    "nome_popular": "Canela",
+    "nome_cientifico": "Cinnamomum verum",
+    "reino": "Plantae",
+    "descricao": "Especiaria obtida da casca interna de árvores do gênero Cinnamomum. Usada em culinária e medicina tradicional.",
+    "habitat": "Nativa do Sri Lanka, cultivada em várias partes da Ásia.",
+    "tags": ["especiaria", "árvore", "aromática", "medicinal"],
+    "nivel_extincao": "Em Perigo",
+    "link": "https://pt.wikipedia.org/wiki/Canela"
+  },
+  {
+    "nome_popular": "Flor-de-Cera",
+    "nome_cientifico": "Hoya carnosa",
+    "reino": "Plantae",
+    "descricao": "Trepadeira popular como planta de interior, conhecida por suas inflorescências em forma de estrela com uma aparência cerosa e perfume doce.",
+    "habitat": "Nativa da Ásia Oriental e Austrália.",
+    "tags": ["trepadeira", "ornamental", "flor de cera", "perfumada"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Hoya_carnosa"
+  },
+  {
+    "nome_popular": "Cogumelo Amanita",
+    "nome_cientifico": "Amanita muscaria",
+    "reino": "Fungi",
+    "descricao": "Cogumelo icônico com chapéu vermelho e pontos brancos, famoso em contos de fadas. É psicoativo e venenoso se não for preparado corretamente.",
+    "habitat": "Florestas temperadas e boreais do Hemisfério Norte, em simbiose com raízes de árvores.",
+    "tags": ["fungo", "cogumelo", "psicoativo", "venenoso"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Amanita_muscaria"
+  },
+  {
+    "nome_popular": "Levedura de Cerveja",
+    "nome_cientifico": "Saccharomyces cerevisiae",
+    "reino": "Fungi",
+    "descricao": "Fungo unicelular crucial na produção de pão, cerveja e vinho através da fermentação. É um organismo modelo em biologia.",
+    "habitat": "Cascas de frutas e ambientes ricos em açúcar. Amplamente cultivado.",
+    "tags": ["fungo", "levedura", "fermentação", "unicelular"],
+    "nivel_extincao": "Pouco Preocupante",
+    "link": "https://pt.wikipedia.org/wiki/Saccharomyces_cerevisiae"
+  },
+  {
+    "nome_popular": "Mofo-do-Pão",
+    "nome_cientifico": "Rhizopus stolonifer",
+    "reino": "Fungi",
+    "descricao": "Mofo comum que cresce em pães e outras superfícies ricas em carboidratos. Desempenha um papel na decomposição.",
+    "habitat": "Amplamente distribuído no solo, ar e matéria orgânica em decomposição.",
+    "tags": ["fungo", "mofo", "decompositor", "saprófita"],
+    "nivel_extincao": "Não Avaliado",
+    "link": "https://pt.wikipedia.org/wiki/Rhizopus_stolonifer"
+  },
+  {
+    "nome_popular": "Penicillium",
+    "nome_cientifico": "Penicillium chrysogenum",
+    "reino": "Fungi",
+    "descricao": "Gênero de fungos conhecido pela produção de penicilina, o primeiro antibiótico descoberto. Também usado na produção de queijos.",
+    "habitat": "Encontrado em solos, alimentos em decomposição e ambientes internos.",
+    "tags": ["fungo", "mofo", "antibiótico", "penicilina"],
+    "nivel_extincao": "Não Avaliado",
+    "link": "https://pt.wikipedia.org/wiki/Penicillium_chrysogenum"
+  },
+  {
+    "nome_popular": "Escherichia coli",
+    "nome_cientifico": "Escherichia coli",
+    "reino": "Bacteria",
+    "descricao": "Bactéria que vive no intestino de animais de sangue quente. A maioria das cepas é inofensiva, mas algumas podem causar doenças. É fundamental em biotecnologia.",
+    "habitat": "Intestino de humanos e outros animais.",
+    "tags": ["bactéria", "procarionte", "intestino", "biotecnologia"],
+    "nivel_extincao": "Não Avaliado",
+    "link": "https://pt.wikipedia.org/wiki/Escherichia_coli"
+  },
+  {
+    "nome_popular": "Cianobactéria (Alga Azul)",
+    "nome_cientifico": "Cyanobacteria",
+    "reino": "Bacteria",
+    "descricao": "Filo de bactérias que obtêm energia por fotossíntese. Foram responsáveis pela oxigenação da atmosfera terrestre primitiva.",
+    "habitat": "Ambientes aquáticos de água doce e salgada, e em solos úmidos.",
+    "tags": ["bactéria", "fotossíntese", "oxigênio", "procarionte"],
+    "nivel_extincao": "Não Avaliado",
+    "link": "https://pt.wikipedia.org/wiki/Cyanobacteria"
+  },
+  {
+    "nome_popular": "Ameba",
+    "nome_cientifico": "Amoeba proteus",
+    "reino": "Protista",
+    "descricao": "Organismo unicelular conhecido por sua forma corporal em constante mudança. Move-se e alimenta-se usando pseudópodes (falsos pés).",
+    "habitat": "Ambientes de água doce, como lagos e lagoas, e em solos úmidos.",
+    "tags": ["protista", "unicelular", "pseudópodes", "eucarionte"],
+    "nivel_extincao": "Não Avaliado",
+    "link": "https://pt.wikipedia.org/wiki/Amoeba"
+  },
+  {
+    "nome_popular": "Paramécio",
+    "nome_cientifico": "Paramecium caudatum",
+    "reino": "Protista",
+    "descricao": "Protozoário ciliado de água doce com formato característico de sola de sapato. Move-se rapidamente batendo seus cílios.",
+    "habitat": "Corpos de água doce, salobra e salgada, especialmente em águas estagnadas e ricas em matéria orgânica.",
+    "tags": ["protista", "unicelular", "ciliado", "eucarionte"],
+    "nivel_extincao": "Não Avaliado",
+    "link": "https://pt.wikipedia.org/wiki/Paramecium"
+  },
+  {
+    "nome_popular": "Arqueia Metanogênica",
+    "nome_cientifico": "Methanogen",
+    "reino": "Archaea",
+    "descricao": "Microorganismos que produzem metano como subproduto metabólico em condições anaeróbicas. Cruciais no ciclo do carbono.",
+    "habitat": "Pântanos, sedimentos marinhos, fontes hidrotermais e no trato digestivo de ruminantes.",
+    "tags": ["arqueia", "procarionte", "metano", "anaeróbico"],
+    "nivel_extincao": "Não Avaliado",
+    "link": "https://pt.wikipedia.org/wiki/Metanog%C3%AAnese"
+  }
+]
